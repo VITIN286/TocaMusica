@@ -48,7 +48,7 @@ const durationEl = document.querySelector('.duration');
 
 // Variáveis de estado
 let musicIndex = 0;
-let isPlaying = true;
+let isPlaying = false;
 
 // Função para carregar a música
 function loadMusic(musica) {
@@ -56,6 +56,7 @@ function loadMusic(musica) {
     songTitle.innerText = musica.title;
     artistName.innerText = musica.artist;
     audio.src = musica.path;
+    audio.play();
 }
 
 // Função para reproduzir a música
