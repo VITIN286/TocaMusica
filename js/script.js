@@ -56,7 +56,6 @@ function loadMusic(musica) {
     songTitle.innerText = musica.title;
     artistName.innerText = musica.artist;
     audio.src = musica.path;
-    audio.play();
 }
 
 // Função para reproduzir a música
