@@ -48,7 +48,7 @@ const durationEl = document.querySelector('.duration');
 
 // Variáveis de estado
 let musicIndex = 0;
-let isPlaying = false;
+let isPlaying = true;
 
 // Função para carregar a música
 function loadMusic(musica) {
